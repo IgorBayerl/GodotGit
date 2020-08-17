@@ -4,7 +4,7 @@
 [ext_resource path="res://src/Actors/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://src/Actors/Enemy.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/Projeteis/Particulas.tscn" type="PackedScene" id=4]
-[ext_resource path="res://src/Audios/MusicTest.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/Actors/Aroldo.tscn" type="PackedScene" id=5]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 0 )
@@ -152,11 +152,10 @@ speed = Vector2( 500, 1000 )
 [node name="Enemy" parent="." instance=ExtResource( 3 )]
 position = Vector2( 2132.21, 813.673 )
 
-[node name="Enemy3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 850.599, 815.785 )
-
 [node name="Enemy2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 1780.06, 800.406 )
 
+[node name="Aroldo" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1240.17, 771.743 )
 [node name="AudioStreamPlayer2D" parent="." instance=ExtResource( 5 )]
 pitch_scale = 1.05

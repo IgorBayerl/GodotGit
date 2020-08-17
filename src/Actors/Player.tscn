@@ -130,6 +130,7 @@ extents = Vector2( 19.9546, 43.7775 )
 collision_mask = 8
 script = ExtResource( 1 )
 speed = Vector2( 500, 800 )
+gravity = 3000.0
 
 [node name="Player" type="Sprite" parent="."]
 scale = Vector2( 2.6, 2.6 )
